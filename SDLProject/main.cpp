@@ -254,9 +254,7 @@ void render() {
 
 void shutdown() { SDL_Quit(); }
 
-/**
- Start here—we can see the general structure of a game loop without worrying too much about the details yet.
- */
+
 int main(int argc, char* argv[])
 {
     initialise();
